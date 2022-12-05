@@ -4,19 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="princ.css">
+    <link rel="stylesheet" href="/front/princ/princ.css">
     <title>Pagina Principal</title>
 </head>
 <body>
+    <header class="top">
+        <div class="bsc_top">
+            <input class="bsc_input" type="search" placeholder="Procurar">
+        </div>
+    </header>
     <main class="contender">
         <section class="contender-agg-com">
             <div class="imagem-usuario">
-                <img src="/front/assets/avatar.png">
+                <img src="/front/assets/avatar_1.png">
             </div>
             <div class="input-com">
                 <input id="novoComentario" type="text" placeholder="Novo Comentario">
                 <div class="btn-agg">
                     <button onclick="nComentario()">Comentar</button>
+                    <button onclick="nApagar()">Apagar</button>
                 </div>
             </div>
         </section>
@@ -24,5 +30,5 @@
     <ul id="comentarios" class="contender-2">
     </ul>
 </body>
-<script src="princ.js"></script>
+<script src="/front/princ/princ.js"></script>
 </html>

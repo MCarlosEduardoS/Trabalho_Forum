@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <link rel="stylesheet" href="/front/login/login.css">
+    <title>Login</title>
 </head>
 <body>
-    
+    <form>
+        <div>
+            <div><label>Email</label></div>
+            <input type="email" name="email" id="email" placeholder="Email" onchange="validateFields()"/>
+        <div>
+            <div><label>Senha</label></div>
+            <input type="password" name="password" id="password" placeholder="Senha" onchange="validateFields()"/>
+        </div>
+        <div>
+            <button type="button" class="solid" id="login-button" disabled="true">Entrar</button>
+        </div>
+        <div>
+            <button type="button" class="outline">Registrar</button>
+        </div>
+    </form>
 </body>
+<script src="/front/login/login.js"></script>
 </html>

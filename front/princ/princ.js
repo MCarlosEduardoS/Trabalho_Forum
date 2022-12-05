@@ -1,6 +1,7 @@
 function nComentario(){
     let li = document.createElement("li");
     let valoringressado = document.getElementById("novoComentario").value;
+    let valordeletado = document.getElementById("novoDeletado").value;
     let text = document.createTextNode(valoringressado);
     li.appendChild(text);
 

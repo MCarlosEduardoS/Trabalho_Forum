@@ -14,7 +14,7 @@ body{
     flex-direction: column;
     margin-top: 200px;
     gap: 5px;
-    background-image: url(/front/assets/shyvanna.jpg);
+    background-image: url("/front/assets/wallpaperflare.com_wallpaper\ \(1\).jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,6 +29,7 @@ body{
     align-items: center;
     flex-direction: column;
     border-radius: 20px;
+    border: 2px solid black;
 }
 
 .contender-2{
@@ -100,6 +101,8 @@ img{
     color: black;
     border-bottom: 2px solid rgba(255,255,255,0);
     transition-duration: 200ms;
+    border: 2px solid black;
+    border-radius: 100px;
 }
 
 #novoComentario::placeholder{
@@ -125,6 +128,7 @@ button{
     outline: none;
     font-size: 15px;
     cursor: pointer;
+    border: 2px solid black;
 }
 
 .close{
@@ -137,4 +141,20 @@ button{
     display: block;
     cursor: pointer;
     color: red;
+}
+
+.bsc_top{
+    margin-top: -190px;
+    width: 600px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.bsc_input{
+    margin-top:15px;
+    margin-left: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
 }
