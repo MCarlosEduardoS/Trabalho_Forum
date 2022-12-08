@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+body{
+    background-color: black;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.top{
+    text-align: center;
+    background-color: gray;
+    border: 2px solid white;
+    width: 1500px;
+    height: 100px;
+    margin-left: 180px;
+    border-radius: 20px;
+}
+
+.top_leiter{
+    text-align: center;
+    background-color: gray;
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+.body_1{
+    background-color: gray;
+    width: 500px;
+    height: 550px;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.body_2{
+    background-color: white;
+    width: 500px;
+    height: 550px;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.body_leiter{
+    font-size: 30px;
+    margin-top: 100px;   
+}
+
+.email{
+    background-color: black;
+    border: 1px solid white;
+    margin-top: 80px;
+    border-radius: 10px;
+    text-align: center;
+    height: 25px;
+    color: white;
+}
+.senha{
+    background-color: black;
+    border: 1px solid white;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    height: 25px;
+    color: white;
+}
+.button{
+    background-color: black;
+    border: 1px solid white;
+    width: 90px;
+    height: 25px;
+    border-radius: 20px;
+    margin-top: 10px;
+    color: white;
+}
