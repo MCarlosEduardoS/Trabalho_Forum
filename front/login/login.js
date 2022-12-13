@@ -1,25 +1,12 @@
-const ec = document.querySelector("#ec");
-const sc = document.querySelector("#sc");
+function logar(){
+    var login = document.getElementById('login').value;
+    var senha = document.getElementById('senha').value;
 
-function login() {
-    let info = {
-        "email": ec.value,
-        "senha": sc.value
+    if(login == "admin" && senha == "admin"){
+        alert('Sucesso');
+        location.href = 
+        "http://127.0.0.1:5500/front/principal/index.html";
+    }else {
+        alert('Usuario ou senha incorretas')
     }
-
-    fetch("http://10.87.207.28:5000/forum/login", {
-        "method":"POST",
-        "headers": {
-            "Content-Type":"application/json"
-        },
-        "body": JSON.stringify(info)
-    })
-    .then(res => {return res.json()})
-    .then(data => {
-        if(data.erro === undefined) {
-            localStorage.setItem("info", JSON.stringify({"username":data.username, "image":data.img}));
-
-            window.location.href = "../home/";
-        }
-    })
 }

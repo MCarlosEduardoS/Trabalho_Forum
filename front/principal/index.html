@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/front/principal/styles.css">
+  <title>Forum Felipe & Carlos</title>
+</head>
+<body>
+  <header>
+    <p>Forum Felipe & Carlos</p>
+  </header>
+  <main class="main">
+    <div class="newPost">
+
+      <div class="infoUser">
+        <div class="imgUser">
+        </div>
+        <strong>Carlos</strong>
+      </div>
+      <form class="formPost" id="formPost">
+        <textarea name="textarea" placeholder="Coloque um comentario?" id="textarea"></textarea>
+        <div class="iconsAndButton">
+          <div class="icons">
+            <button class="btnFileForm">
+              <img src="/front/assets/img.svg" alt="Adicionar uma imagem">
+            </button>
+            <button class="btnFileForm">
+              <img src="/front/assets/gif.svg" alt="Adicionar um gif">
+            </button>
+            <button class="btnFileForm">
+              <img src="/front/assets/video.svg" alt="Adicionar um vídeo">
+            </button>
+          </div>
+          <button type="submit" id="botao" class="btnSubmitForm">Publicar</button>
+        </div>
+      </form>
+    </div>
+
+    <ul class="posts" id="posts"></ul>
+  </main>
+  <script type="module" src="/front/principal/script.js"></script>
+</body>
+
+</html>

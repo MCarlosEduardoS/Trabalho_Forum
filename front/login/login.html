@@ -15,19 +15,6 @@
         </p>
     </header>
     <main>
-        <div class="body_1">
-            <p class="body_leiter">Cadastre-se</p>
-            <br>
-            <p>Para os novos clientes
-            <br>
-            <input class="email" id="ec" type="text" placeholder="Email">
-            <br> 
-            <input class="senha" id="sc" type="password" placeholder="Senha">
-            <br>
-            <input class="senha" id="sc" type="password" placeholder="Confirma Senha">
-            <br>
-            <button class="button" onclick="nCadastra()" type="button">Cadastrar</button>
-        </div>
         <div class="body_2">
             <p class="body_leiter">Login</p>
             <br>
@@ -36,12 +23,28 @@
                já cadastrados
             </p>
             <br>
-            <input class="email" id="email-login" type="text" placeholder="Email">
+            <input class="email" id="login" type="text" placeholder="Insira seu email">
             <br> 
-            <input class="senha" id="senha-login" type="password" placeholder="Senha">
+            <input class="senha" id="senha" type="password" placeholder="Insira sua senha">
             <br>
-            <button class="button" id="button-login" type="button">Logar</button>
+            <button class="button" onclick="logar()" type="button">Logar</button>
         </div>
+        <div class="body_1">
+            "<p class="body_leiter">Cadastre-se</p>
+            <br>
+            <p>Para os novos usuarios
+            <br>
+            <input class="email" id="emailC" type="text" placeholder="Insira seu email">
+            <br> 
+            <input class="senha" id="senhaC" type="password" placeholder="Insira sua senha">
+            <br>
+            <input class="senha" id="senhaC" type="password" placeholder="Confirmar a sua senha">
+            <br>
+            <button class="button" onclick="cadastra()" type="button">Cadastrar</button>
+        </div>
+    </div>
+
     </main>
 </body>
+<script src="login.js"></script>
 </html>
