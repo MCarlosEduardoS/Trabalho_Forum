@@ -56,7 +56,7 @@ export class FormPost {
               <img src="/front/assets/share.svg" alt="Compartilhar">
               Compartilhar
             </button>
-            <button type="button" class="filesPost share">
+            <button type="button" class="filesPost deletel">
               <img src="/front/assets/share.svg" alt="Compartilhar">
               Deletar
             </button>
